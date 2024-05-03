@@ -1,14 +1,9 @@
 import "./App.css";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  useLocation,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import TeamsPage from "./pages/TeamsPage";
-import { useEffect } from "react";
 
 const router = createBrowserRouter([
   {

@@ -7,7 +7,9 @@ function Navbar() {
   return (
     <nav className="sticky top-0 z-10 block w-full text-white bg-black rounded-none h-max py-1 lg:py-4">
       <div className="max-w-screen flex flex-wrap items-center justify-between">
-        <img src={Logo} className=" h-12" alt="Mizuki Logo" />
+        <Link to="/">
+          <img src={Logo} className=" h-12" alt="Mizuki Logo" />
+        </Link>
         <button
           className="relative mr-5 h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
           type="button"

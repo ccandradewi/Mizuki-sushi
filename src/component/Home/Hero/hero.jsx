@@ -2,7 +2,7 @@ function Hero({ pageTitle }) {
   return (
     <section className="flex flex-col w-full md:w-full md:h-80 lg:h-screen bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-fixed ">
       <div
-        className="flex-1 flex items-center bg-cover lg:bg-cover"
+        className="flex-1 flex items-center bg-cover lg:bg-cover bg-cover bg-blend-overlay bg-black/60"
         style={{
           backgroundImage:
             "url('https://media.cnn.com/api/v1/images/stellar/prod/210916135259-sushi-stock-restricted.jpg?q=w_3000,h_1630,x_0,y_0,c_fill')",
